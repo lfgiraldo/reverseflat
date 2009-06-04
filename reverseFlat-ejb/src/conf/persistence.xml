@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="Snoof-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/snoits</jta-data-source>
+    <properties/>
+  </persistence-unit>
+<!--
+<persistence-unit name="hello-world" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.ejb.cmp3.EntityManagerFactoryProvider</provider>
+    <class>com.snoofing.persistence.Auction</class>
+    <class>com.snoofing.persistence.Auctioncategory</class>
+    <class>com.snoofing.persistence.Auctiontexttranslation</class>
+    <class>com.snoofing.persistence.Bid</class>
+    <class>com.snoofing.persistence.Chipsexpenditure</class>
+    <class>com.snoofing.persistence.Chipsincome</class>
+    <class>com.snoofing.persistence.Combochips</class>
+    <class>com.snoofing.persistence.Facebookinfo</class>
+    <class>com.snoofing.persistence.Freechipsincome</class>
+    <class>com.snoofing.persistence.Grouptable</class>
+    <class>com.snoofing.persistence.GrouptablePK</class>
+    <class>com.snoofing.persistence.Price</class>
+    <class>com.snoofing.persistence.Pricebyauction</class>
+    <class>com.snoofing.persistence.PricebyauctionPK</class>
+    <class>com.snoofing.persistence.Proposeditem</class>
+    <class>com.snoofing.persistence.Proposeditemvote</class>
+    <class>com.snoofing.persistence.Registermailpage</class>
+    <class>com.snoofing.persistence.Seo</class>
+    <class>com.snoofing.persistence.Snoitsplan</class>
+    <class>com.snoofing.persistence.User</class>
+    <class>com.snoofing.persistence.Userrole</class>
+
+    <properties>
+        <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/snoits"/>
+        <property name="toplink.jdbc.user" value="snoits"/>
+        <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        <property name="toplink.jdbc.password" value="Sn2k9its"/>
+        <property name="toplink.ddl-generation" value="none"/>
+    </properties>
+    </persistence-unit>
+-->
+</persistence>
