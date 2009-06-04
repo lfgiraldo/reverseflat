@@ -1,0 +1,1 @@
+ALTER TABLE auction MODIFY endDate DATETIME;

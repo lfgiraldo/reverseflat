@@ -1,0 +1,1 @@
+ALTER TABLE user ADD activationKey VARCHAR(10) NOT NULL;
