@@ -1,0 +1,45 @@
+/* -------------------INFO BANNERS-------------------- */
+#SlideItMoo_info_outer { 
+	display:block; 
+	position:relative; 
+	min-width:820px;
+	height:33px;
+	margin:0px auto 0px; 
+}
+#SlideItMoo_info_inner { 
+	display:block;
+	position:relative;
+	overflow:hidden ; 
+	min-width:820px;
+	height:36px;
+	margin:0px auto 0px;  
+}
+#SlideItMoo_info_items { 
+	display:block; 
+	position:relative; 
+}
+
+#SlideItMoo_info_items .info_item{
+	display:block; 
+	position:relative;
+	width:270px;
+	height:33px;
+	float:left;
+}
+
+#SlideItMoo_info_items .info_item a img{
+	border:none;
+}
+
+#SlideItMoo_info_items .info_item img {
+	float:left;	
+	margin-right:15px;
+}
+
+#SlideItMoo_info_items .info_item h1{
+	background:none;
+	color:#006699;
+	text-align:right;
+	margin:5px 0px 10px;
+}
+

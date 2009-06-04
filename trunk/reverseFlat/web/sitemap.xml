@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.snoits.com/SnoofWar/</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/register.jsp</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/Public</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=active</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=closed</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=3</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=1</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=5</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=7</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=6</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=2</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how.jsp</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=category&amp;idCategory=1</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=category&amp;idCategory=2</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=category&amp;idCategory=3</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/about.jsp</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/PublicArea?option=info&amp;idAuction=4</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how2.jsp</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how31.jsp</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how32.jsp</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how33.jsp</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.snoits.com/SnoofWar/how4.jsp</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

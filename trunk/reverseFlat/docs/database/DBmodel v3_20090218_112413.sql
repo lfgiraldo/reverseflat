@@ -1,0 +1,1 @@
+ALTER TABLE auction MODIFY grossMargin FLOAT(3,0) NOT NULL;
