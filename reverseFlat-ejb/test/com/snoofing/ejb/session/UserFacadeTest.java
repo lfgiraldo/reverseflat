@@ -5,8 +5,8 @@
 
 package com.snoofing.ejb.session;
 
-import com.reverse.ejb.session.UserFacade;
-import com.reverse.ejb.persistence.User;
+import com.reverseFlat.ejb.session.UserFacade;
+import com.reverseFlat.ejb.persistence.User;
 import java.util.List;
 import org.junit.After;
 import org.junit.AfterClass;
