@@ -1,4 +1,4 @@
-<%@page import="com.reverse.ejb.persistence.*, java.util.*" %>
+<%@page import="com.reverseFlat.ejb.persistence.*, java.util.*" %>
 <%
 	try {
 %>

@@ -1,4 +1,4 @@
-<%@page import="com.reverse.ejb.persistence.*, java.util.*, java.math.BigDecimal" %>
+<%@page import="com.reverseFlat.ejb.persistence.*, java.util.*, java.math.BigDecimal" %>
 <%
     try{
 %>
