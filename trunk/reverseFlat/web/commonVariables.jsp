@@ -1,4 +1,4 @@
-<%@page import="com.reverse.ejb.persistence.*, java.util.*" %>
+<%@page import="com.reverseFlat.ejb.persistence.*, java.util.*" %>
 <%-- 
     Document   : commonVariables
     Created on : 17-abr-2009, 13:52:33

@@ -1,4 +1,4 @@
-<%@page import="com.reverse.ejb.persistence.*, java.util.*" %>
+<%@page import="com.reverseFlat.ejb.persistence.*, java.util.*" %>
 <%
     if (request.getSession().isNew()){
         response.sendRedirect("Public");

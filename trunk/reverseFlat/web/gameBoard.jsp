@@ -1,4 +1,4 @@
-<%@page import="com.reverse.ejb.persistence.*, java.util.*, java.text.NumberFormat, java.text.DecimalFormat" %>
+<%@page import="com.reverseFlat.ejb.persistence.*, java.util.*, java.text.NumberFormat, java.text.DecimalFormat" %>
 <%
     try{
 

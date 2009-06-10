@@ -3,28 +3,28 @@
     <!--
     <servlet>
         <servlet-name>GWTService</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.RegisterServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.RegisterServiceImpl</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginService</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.LoginServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.LoginServiceImpl</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserLogoutService</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.LoginServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.LoginServiceImpl</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdminLogoutService</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.LoginServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.LoginServiceImpl</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CommonService</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.CommonServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.CommonServiceImpl</servlet-class>
     </servlet>
     -->
     <filter>
         <filter-name>FacebookUserFilter</filter-name>
-        <filter-class>com.reverse.server.FacebookUserFilter</filter-class>
+        <filter-class>com.reverseFlat.server.FacebookUserFilter</filter-class>
         <init-param>
             <param-name>facebook_api_key</param-name>
             <param-value>39b4cc1578dc9af99a904f89a2921fa2</param-value>
@@ -40,7 +40,7 @@
     </filter-mapping>
     <servlet>
         <servlet-name>FacebookInfo</servlet-name>
-        <servlet-class>com.reverse.server.FacebookInfoImpl</servlet-class>
+        <servlet-class>com.reverseFlat.server.FacebookInfoImpl</servlet-class>
         <init-param>
             <param-name>apiKey</param-name>
             <param-value>85417f72626d9aa4c85c35bad1725093</param-value>
@@ -53,84 +53,84 @@
     <!--
     <servlet>
         <servlet-name>ProposeItemServlet</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.ProposeItemServlet</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.ProposeItemServlet</servlet-class>
     </servlet>
     -->
     <servlet>
         <servlet-name>CreateAuctionServlet</servlet-name>
-        <servlet-class>com.reverse.server.CreateAuctionServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.CreateAuctionServlet</servlet-class>
     </servlet>
     <!--
     <servlet>
         <servlet-name>ProposedItem</servlet-name>
-        <servlet-class>com.reverse.ejb.gwt.server.ProposedItemImpl</servlet-class>
+        <servlet-class>com.reverseFlat.ejb.gwt.server.ProposedItemImpl</servlet-class>
     </servlet>
     -->
     <servlet>
         <servlet-name>AuctionsService</servlet-name>
-        <servlet-class>com.reverse.server.AuctionsServiceImpl</servlet-class>
+        <servlet-class>com.reverseFlat.server.AuctionsServiceImpl</servlet-class>
     </servlet>
     <servlet>
 		<servlet-name>PayPalAreaServlet</servlet-name>
-		<servlet-class>com.reverse.server.PayPalAreaServlet</servlet-class>
+		<servlet-class>com.reverseFlat.server.PayPalAreaServlet</servlet-class>
 	</servlet>
     <servlet>
 		<servlet-name>ExpressCheckoutServlet</servlet-name>
-		<servlet-class>com.reverse.server.ExpressCheckoutServlet</servlet-class>
+		<servlet-class>com.reverseFlat.server.ExpressCheckoutServlet</servlet-class>
 	</servlet>
     <servlet>
         <servlet-name>ActivationServlet</servlet-name>
-        <servlet-class>com.reverse.server.ActivationServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.ActivationServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>jcaptcha</servlet-name>
-        <servlet-class>com.reverse.server.ImageCaptchaServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.ImageCaptchaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TestSwf</servlet-name>
-        <servlet-class>com.reverse.server.TestSwf</servlet-class>
+        <servlet-class>com.reverseFlat.server.TestSwf</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PublicIndexServlet</servlet-name>
-        <servlet-class>com.reverse.server.PublicIndexServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.PublicIndexServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet>
         <servlet-name>AdminArea</servlet-name>
-        <servlet-class>com.reverse.server.AdminAreaServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.AdminAreaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PublicAreaServlet</servlet-name>
-        <servlet-class>com.reverse.server.PublicAreaServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.PublicAreaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RestrictedAreaServlet</servlet-name>
-        <servlet-class>com.reverse.server.RestrictedAreaServlet</servlet-class>
+        <servlet-class>com.reverseFlat.server.RestrictedAreaServlet</servlet-class>
     </servlet>
     <!--
     <servlet-mapping>
         <servlet-name>GWTService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.Public/gwtservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.Public/gwtservice</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.Public/loginservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.Public/loginservice</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.PublicDetails/loginservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.PublicDetails/loginservice</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>UserLogoutService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.UserPrivateArea/loginservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.UserPrivateArea/loginservice</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AdminLogoutService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.AdminArea/loginservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.AdminArea/loginservice</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CommonService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.UserPrivateArea/commonservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.UserPrivateArea/commonservice</url-pattern>
     </servlet-mapping>
     -->
     <servlet-mapping>
@@ -140,11 +140,11 @@
     <!--
     <servlet-mapping>
         <servlet-name>ProposeItemServlet</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.Public/proposeItemServlet</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.Public/proposeItemServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CreateAuctionServlet</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.AdminArea/createAuctionServlet</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.AdminArea/createAuctionServlet</url-pattern>
     </servlet-mapping>
     -->
     <servlet-mapping>
@@ -154,21 +154,21 @@
     <!--
     <servlet-mapping>
         <servlet-name>ProposedItem</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.UserPrivateArea/proposeditem</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.UserPrivateArea/proposeditem</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AuctionsService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.Public/auctionsservice</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>AuctionsService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.PublicDetails/auctionsservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.Public/auctionsservice</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>AuctionsService</servlet-name>
-        <url-pattern>/com.reverse.ejb.gwt.UserPrivateArea/auctionsservice</url-pattern>
+        <url-pattern>/com.reverseFlat.ejb.gwt.PublicDetails/auctionsservice</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AuctionsService</servlet-name>
+        <url-pattern>/com.reverseFlat.ejb.gwt.UserPrivateArea/auctionsservice</url-pattern>
     </servlet-mapping>
     -->
     <servlet-mapping>
@@ -332,15 +332,15 @@
         <ejb-ref-name>UserFacade</ejb-ref-name>
         <ejb-ref-type>Session</ejb-ref-type>
         <local-home/>
-        <local>com.reverse.ejb.session.UserFacadeLocal</local>
-        <ejb-link>reverse-ejb.jar#UserFacade</ejb-link>
+        <local>com.reverseFlat.ejb.session.UserFacadeLocal</local>
+        <ejb-link>reverseFlat-ejb.jar#UserFacade</ejb-link>
     </ejb-local-ref>
     <ejb-local-ref>
         <ejb-ref-name>AuctionFacade</ejb-ref-name>
         <ejb-ref-type>Session</ejb-ref-type>
         <local-home/>
-        <local>com.reverse.ejb.session.AuctionFacadeLocal</local>
-        <ejb-link>reverse-ejb.jar#AuctionFacade</ejb-link>
+        <local>com.reverseFlat.ejb.session.AuctionFacadeLocal</local>
+        <ejb-link>reverseFlat-ejb.jar#AuctionFacade</ejb-link>
     </ejb-local-ref>
     <context-param>
         <param-name>log4jConfigLocation</param-name>
