@@ -69,6 +69,7 @@
 				SqueezeBox.assign($$('a.boxed'), {
 						parse: 'rel'
 				});
+				/*
 				new SlideItMoo({overallContainer: 'SlideItMoo_info_outer',
 					elementScrolled: 'SlideItMoo_info_inner',
 					thumbsContainer: 'SlideItMoo_info_items',		
@@ -80,7 +81,7 @@
 					transition: Fx.Transitions.Sine.easeIn,
 					duration: 2500,
 					direction:1});	
-
+				*/
 				Sexy = new SexyAlertBox();
                 document.getElementById("loading").style.visibility = 'hidden';
 		<%

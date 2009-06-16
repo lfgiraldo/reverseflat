@@ -14,28 +14,38 @@
     <link href="js/formcheck/theme/classic/formcheck.css" rel="stylesheet" type="text/css" />
     <link href="css/SqueezeBox.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
+<style type="text/css">
+<!--
+#prueba {
+	border: 1px solid #ccc;
+	position: relative;
+	height: 350px;
+	width: 250px;
+}
+-->
+</style>
 </head>
 	
 <body>
-
+<!--
 <a style="background-color:rgb(34, 34, 34);" id="fdbk_tab" href="feedback.jsp" class="boxed" rel="{handler:'iframe',size:{x:410,y:470}}" title="Feedback">FEEDBACK</a>
-
+-->
 <!-------------------------------------------HEADER-------------------------------------------> 
     <%@ include file="commonScripts.jsp" %>
-	<%@ include file="publicHeader.jsp" %>
+	<% //@ include file="publicHeader.jsp" %> 
 
     
     
 <!-------------------------------------------ACTUAL-------------------------------------------> 
-<%@ include file="publicClosing.jsp" %>
+<%//@ include file="publicClosing.jsp" %>
 
 <!-------------------------------------------SUBMENU-------------------------------------------> 
-<%@ include file="publicSubmenu.jsp" %>
+<%//@ include file="publicSubmenu.jsp" %>
 
-<div id="cuerpo">
-  <span class="column">
-    <div class="column_unit">
-        <div class="column_h1">Subastas Abiertas</div>
+<div style="border:#000; color:#000">
+  <span>
+    <div>
+        <div>Subastas Abiertas</div>
 	</div>
 <%
     List<Auction> auctionsList = (List<Auction>) request.getSession().getAttribute("activeAuctions");
@@ -74,16 +84,16 @@ if ( auctionsList != null)
 			link = "PublicArea?option=info&idAuction="+currentAuction.getIdAuction();
 		}
 %>
-        <div class="column_unit">
+        <div id="prueba">
             <a href="<%=link%>">
                 <img src="<%=currentAuction.getCircledFileName()%>" width="74" height="74" />
             </a>
-                <div class="column_cell">
+                <div >
                 <a href="<%=link%>"><%=currentText.getTitle()%></a>
                 <p><%=currentText.getShortDescription()%></p>
 					<%---------  TIMER & PROGRESS BAR ---------%>
                     <%@ include file="progressBarAndTimer.jsp" %>
-                <div class="column_puja">
+                <div >
 <%
                     HashMap winnerBids = (HashMap)request.getSession().getAttribute("winnerBids");
                     Bid currentWinnerBid = (Bid) winnerBids.get(currentAuction.getIdAuction());
@@ -101,60 +111,14 @@ if ( auctionsList != null)
             </div>
         </div>
         
-  <%
-        //Para cambiar de Columna
-  		if ( i == half ){
-  %>			
-		</span>
-        <span class="column"> 
-        <div class="column_unit">
-            <div class="column_h1">&nbsp;</div>
-        </div>
-  <%
-        }
-        i++;
+<%
   		
     }
 }
 %>        
-	</span>
- 
-  <span class="column">
-    <div style="margin=0px;padding=0px;">
-        	<a href="how.jsp"><img src="img/how.gif" /></a>
-        </div>
-    <div class="column_unit">
-            <div class="column_h1">Navegador</div>
-    <div id="nav">
-        <ul class="nav_list">
-<%
-
-	for(Auctioncategory category : categories){
-        String link = "";
-		if (user != null){
-			link = "RestrictedArea?option=category&idCategory="+category.getIdCategory()+"&type=category";
-		}else{
-			link = "PublicArea?option=category&idCategory="+category.getIdCategory()+"&type=category";
-		}
-%>
-            <li><a href="<%=link%>"><%=userLocale.equalsIgnoreCase("en")?category.getCategoryNameEn():category.getCategoryNameEs()%></a></li>
-<%
-	}
-%>
-        </ul>
-        
-          <%--<div id="nav_txtfield_txt">Búsqueda</div>
-            <div id="nav_txtfieldbg">
-                <input name="pujarango_desde" type="text" id="nav_txtfield">
-            </div>--%>
-        </div>
-    
-      </div>
-    </span>
-  
-  </div>
+  </span></div>
 <!-------------------------------------------SUBMENU------------------------------------------> 
-		<%@ include file="publicKicker.jsp" %>
+		<%//@ include file="publicKicker.jsp" %>
 </div>
 
 <!-------------------------------------------GA-----------------------------------------------> 
