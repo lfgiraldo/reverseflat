@@ -512,7 +512,8 @@ dd {
 	height: 15px;
 	background: url(../img/bar0.gif) no-repeat 0 0;
 	position: relative;
-	left: 38px;
+	margin:0px;
+	left:0px;
 	margin-top:-5px;
 }
 
