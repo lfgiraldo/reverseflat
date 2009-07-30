@@ -25,15 +25,16 @@
 	width:270px;
 	height:33px;
 	float:left;
-}
-
-#SlideItMoo_info_items .info_item a img{
-	border:none;
+    margin:0px;
 }
 
 #SlideItMoo_info_items .info_item img {
-	float:left;	
-	margin-right:15px;
+	float:none;
+	margin-right:3px;
+    float:left;
+    padding-right: 0px;
+    padding-top:0px;
+    list-style: none;
 }
 
 #SlideItMoo_info_items .info_item h1{
@@ -42,4 +43,3 @@
 	text-align:right;
 	margin:5px 0px 10px;
 }
-

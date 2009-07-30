@@ -21,7 +21,7 @@
         <servlet-name>CommonService</servlet-name>
         <servlet-class>com.reverseFlat.ejb.gwt.server.CommonServiceImpl</servlet-class>
     </servlet>
-    -->
+    
     <filter>
         <filter-name>FacebookUserFilter</filter-name>
         <filter-class>com.reverseFlat.server.FacebookUserFilter</filter-class>
@@ -38,6 +38,7 @@
         <filter-name>FacebookUserFilter</filter-name>
         <servlet-name>FacebookInfo</servlet-name>
     </filter-mapping>
+    -->
     <servlet>
         <servlet-name>FacebookInfo</servlet-name>
         <servlet-class>com.reverseFlat.server.FacebookInfoImpl</servlet-class>

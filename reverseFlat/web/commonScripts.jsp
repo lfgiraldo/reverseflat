@@ -1,7 +1,7 @@
 	<!-- <script type="text/javascript" src="js/browser.js"></script> -->
     <div id="loading">
       <div class="loading-indicator"> <img src="img/loading.gif" alt="" 
-                         style="margin-right:8px;float:left;vertical-align:top;"/>Snoits<br/>
+                         style="margin-right:8px;float:left;vertical-align:top;"/>Minimorum<br/>
         <span id="loading-msg">Cargando...</span></div>
     </div>
 	<script type="text/javascript" src="js/formcheck/lang/<%=(String)request.getSession().getAttribute("locale")%>.js"></script>
