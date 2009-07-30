@@ -1,5 +1,5 @@
-<div id="cierres">	
-	<div id="cierres_tit">Ahora!</div>
+<div id="menu1">
+	<div id="cierres_tit">Subastas Activas</div>
 	<div id="SlideItMoo_info_outer">
 		<div id="SlideItMoo_info_inner">			
 			<div id="SlideItMoo_info_items">
@@ -31,25 +31,34 @@
                     int totalBids = bids.size()*2;
                     percentage = (totalBids*100/minBids);
                     if (percentage == 0 ){
-                        quarter = "00";
+                        quarter = "<img src=\"images/bullet_circle_white.png\" />" +
+                        "<img src=\"images/bullet_circle_white.png\" /> " +
+                        "<img src=\"images/bullet_circle_white.png\" /> " ;
                     }else if (percentage > 0 && percentage < 33){
-                        quarter = "01";
+                        quarter = "<img src=\"images/bullet_circle_orange.png\" />" +
+                        "<img src=\"images/bullet_circle_white.png\" /> " +
+                        "<img src=\"images/bullet_circle_white.png\" /> " ;
                     }else if (percentage >= 33 && percentage < 66){
-                        quarter = "02";
+                        quarter = "<img src=\"images/bullet_circle_orange.png\" />" +
+                        "<img src=\"images/bullet_circle_orange.png\" /> " +
+                        "<img src=\"images/bullet_circle_white.png\" /> " ;
                     }else if (percentage >= 66 && percentage <= 100){
-                        quarter = "03";
+                        quarter = "<img src=\"images/bullet_circle_orange.png\" />" +
+                        "<img src=\"images/bullet_circle_orange.png\" /> " +
+                        "<img src=\"images/bullet_circle_orange.png\" /> " ;
                     }
                     
                 }
         %>
-        		<div class="info_item">
-                    <div class="cierres_line"></div>
-                    
+            <div class="info_item" align="center">
+                
     <%
                 if (currentAuction.getActive() && currentAuction.getEndDate() == null){
     %>
-                    <p><a href="<%=link%>"><%=currentText.getTitle()%></a></p>
-                    <p><a href="<%=link%>"><img src="img/pb<%=quarter%>.gif" class="cierres_img" title="Avance de la Subasta" /></a></p>
+                    <%=quarter%>
+                    <%=currentText.getTitle()%>
+                    <img src="images/separador_01.png" />
+
     <%
                 }else if (currentAuction.getActive() && currentAuction.getEndDate() != null){
                     Date today = new Date();
@@ -86,7 +95,6 @@
             }
         }
             %>
-				<div class="cierres_line"></div>
                 
 		</div>  <!-- SlideItMoo_info_items -->
     </div> <!-- SlideItMoo_info_inner -->
