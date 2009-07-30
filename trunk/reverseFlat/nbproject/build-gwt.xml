@@ -41,6 +41,8 @@
                 <path path="${javac.classpath}:${src.dir}:${build.classes.dir}"/>
             </classpath>
         </nbjpdastart>
+        
+        <property name="gwt.shell.jvmargs" value=""/>
         <property name="gwtshell.jvmargs.base" value="-Xdebug -Xnoagent -Djava.compiler=none -Xrunjdwp:transport=dt_socket,address=${jpda.address.gwt}"/>
         
         <condition property="gwtshell.jvmargs" value="${gwtshell.jvmargs.base} -XstartOnFirstThread"
@@ -75,6 +77,7 @@
         <property name="client.url" value="${gwt.module}"/>
         <!-- You can override this property in the 'gwt.properties' file -->
         <property name="gwt.shell.output.style" value="OBFUSCATED"/>
+        <property name="gwt.shell.jvmargs" value=""/>
         <property name="gwt.shell.logLevel" value="WARN"/>
         <property name="gwtshell.jvmargs.base" value="-Xdebug -Xnoagent -Djava.compiler=none -Xrunjdwp:transport=dt_socket,address=${jpda.address.gwt}"/>
         <condition property="gwtshell.jvmargs" value="${gwtshell.jvmargs.base} -XstartOnFirstThread"
